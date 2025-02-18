@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white dark:bg-dark text-gray-900 dark:text-gray-100;
+  }
+}
+
+@layer utilities {
+  .neon-border {
+    @apply border border-neon-blue shadow-neon-glow;
+  }
+  
+  .neon-pink-border {
+    @apply border border-neon-pink shadow-neon-pink-glow;
+  }
+}
+
+/* Custom scrollbar for dark mode */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  @apply bg-dark-200;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-dark-500 rounded-full;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-dark-600;
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-neon-blue to-neon-pink;
+}
