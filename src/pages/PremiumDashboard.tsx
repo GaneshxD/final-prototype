@@ -25,7 +25,7 @@ export default function PremiumDashboard() {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center">
               <Zap className="h-8 w-8 text-blue-600 dark:text-neon-blue" />
-              <span className="ml-2 text-xl font-bold text-gray-900 dark:text-white">TrafficAI Premium</span>
+              <span className="ml-2 text-xl font-bold text-gray-900 dark:text-white">BATO Premium</span>
             </div>
 
             <div className="flex-1 max-w-xl mx-8">

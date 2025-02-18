@@ -17,7 +17,7 @@ const updates = [
   {
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80',
     title: 'API Integration Now Available',
-    excerpt: 'Connect TrafficAI with your existing systems using our new API endpoints.',
+    excerpt: 'Connect BATO with your existing systems using our new API endpoints.',
     date: 'Oct 5, 2023'
   }
 ];
@@ -29,7 +29,7 @@ export default function Updates() {
         <div className="flex justify-between items-center mb-16">
           <div>
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Latest Updates</h2>
-            <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">Stay current with TrafficAI developments</p>
+            <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">Stay current with BATO developments</p>
           </div>
           <button className="flex items-center text-blue-600 dark:text-neon-blue hover:text-blue-700 dark:hover:text-neon-pink transition-colors">
             View All Updates

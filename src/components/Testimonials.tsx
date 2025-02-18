@@ -3,7 +3,7 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "TrafficAI has revolutionized how we manage traffic flow in our city. The real-time insights are invaluable.",
+    quote: "BATO has revolutionized how we manage traffic flow in our city. The real-time insights are invaluable.",
     author: "Sarah Chen",
     role: "Urban Planning Director",
     organization: "Smart City Initiative",

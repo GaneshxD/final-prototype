@@ -24,7 +24,7 @@ export default function Features() {
     <div className="py-24 bg-white dark:bg-gray-900 transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Why Choose TrafficAI?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Why Choose BATO?</h2>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">Powerful features to transform your traffic management</p>
         </div>
         

@@ -27,7 +27,7 @@ export default function DashboardLayout() {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center">
               <Activity className="h-8 w-8 text-blue-600 dark:text-neon-blue" />
-              <span className="ml-2 text-xl font-bold text-gray-900 dark:text-white">TrafficAI</span>
+              <span className="ml-2 text-xl font-bold text-gray-900 dark:text-white">BATO</span>
             </div>
 
             <div className="flex-1 max-w-xl mx-8">
@@ -117,7 +117,7 @@ export default function DashboardLayout() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex justify-between items-center">
             <div className="text-sm text-gray-500 dark:text-gray-400">
-              © 2024 TrafficAI. All rights reserved.
+              © 2024 BATO. All rights reserved.
             </div>
             <div className="flex space-x-4 text-sm text-gray-500 dark:text-gray-400">
               <a href="#" className="hover:text-gray-900 dark:hover:text-white">Terms</a>
